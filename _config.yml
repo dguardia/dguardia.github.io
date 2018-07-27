@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -100,13 +100,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "David Guardia"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "New Jersey"
   email            :
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : https://dguardia.github.io
   bitbucket        :
   codepen          :
   dribbble         :
@@ -176,6 +176,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+#Adding github
+github: [metadata]
 
 # Markdown Processing
 kramdown:
