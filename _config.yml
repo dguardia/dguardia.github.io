@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : &description "dguardia"
 description              : "An amazing website for AI, Data Science, ML and Web related information and blogs."
 url                      : "https://dguardia.github.io/"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "/dguardia/dguardia.github.io.git"
 teaser                   : "/assets/images/my-awesome-post-teaser.jpg"
 breadcrumbs              : true, #false (default)
