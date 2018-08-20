@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David Guardia"
+title                    : &name "David Guardia"
 title_separator          : "-"
-name                     : "dguardia"
-description              : "An amazing website."
+name                     : &description "dguardia"
+description              : "An amazing website for AI, Data Science, ML and Web related information and blogs."
 url                      : "https://dguardia.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/dguardia/dguardia.github.io.git"
+baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+repository               : "/dguardia/dguardia.github.io.git"
 teaser                   : "/assets/images/my-awesome-post-teaser.jpg"
 breadcrumbs              : true, #false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -54,8 +54,9 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : "6Ld76GoUAAAAAEVu7UN5_LsMgS5aBeLVXFZzVOeD"
+  secret                 : "6Ld76GoUAAAAAB_GgD9VsK96LmBL93m0vjlr8nek"
+  
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # false (default)
@@ -77,18 +78,19 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "daveg1510"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/daveg1510"
 
 # Analytics
 analytics:
@@ -100,36 +102,36 @@ analytics:
 
 # Site Author
 author:
-  name             : "David Guardia"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "New Jersey"
+  name             : *name
+  avatar           : "/assets/images/michael-rose.jpg"
+  bio              : "Just another wannabe Data Science expert."
+  location         : "Monmouth, NJ"
   email            : "david.guardia@gmail.com"
-  uri              :
-  home             : https://dguardia.github.io
+  uri              : "https://davidguardia.com/"
+  home             : "https://davidguardia.com/"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "dguardia"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "daveg1510"
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "dguardia" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/user/daveg1510"
 
 
 # Reading Files
@@ -201,7 +203,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
