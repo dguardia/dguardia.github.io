@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/michael-rose.jpg"
+  avatar           : "/assets/images/david-guardia.jpg"
   bio              : "Just another wannabe Data Science expert."
   location         : "Monmouth, NJ"
   email            : #
