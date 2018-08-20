@@ -20,7 +20,7 @@ title                    : &name "David Guardia"
 title_separator          : "-"
 name                     : &description "dguardia"
 description              : "An amazing website for AI, Data Science, ML and Web related information and blogs."
-url                      : "https://dguardia.github.io/"
+url                      : "https://dguardia.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "/dguardia/dguardia.github.io.git"
 teaser                   : "/assets/images/my-awesome-post-teaser.jpg"
@@ -106,7 +106,7 @@ author:
   avatar           : "/assets/images/michael-rose.jpg"
   bio              : "Just another wannabe Data Science expert."
   location         : "Monmouth, NJ"
-  email            : "david.guardia@gmail.com"
+  email            : #
   uri              : "https://davidguardia.com/"
   home             : "https://davidguardia.com/"
   bitbucket        :
